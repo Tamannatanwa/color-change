@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+#app .container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding-inline: 4rem;
+    padding-block: 1rem;
+    border:2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: "#f1f1ff1"
+}
